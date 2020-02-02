@@ -23,6 +23,7 @@ def brute_force_search(s, pat):
 def main():
     s = make_random_string()
     print(s)
+    print("検索したい文字列の入力")
     pat = input()
     loc = brute_force_search(s, pat)
     if loc > 0:
