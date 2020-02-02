@@ -119,6 +119,8 @@ KMP法の上位互換的な立ち位置.KMP法は先頭から比較を行った�
     3. 2.をn要素目まで行う.
 これも安定ソート
 
+[挿入ソートの実装](https://github.com/Foh-k/algorithm_lecture/blob/master/insertion_sort.py)
+
 4. シェルソート\
 5. コムソート\
 6. クイックソート\
