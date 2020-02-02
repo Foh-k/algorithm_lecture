@@ -85,6 +85,8 @@ KMP法の上位互換的な立ち位置.KMP法は先頭から比較を行った�
 | e        | 2        |
 | それ以外 | 6        |
 
+[BM法の実装](https://github.com/Foh-k/algorithm_lecture/blob/master/bm.py)
+
 ## ソート
 1. バブルソート
 2. シェルソート
