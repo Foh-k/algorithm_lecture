@@ -36,6 +36,8 @@ def make_kmp_table(pat):
 # というかまじで実装重い.とてもつらい.テストに出るな！出るんじゃねぇ！
 def kmp_search(s, pat):
     skip, start = make_kmp_table(pat)
+    print(skip)
+    print(start)
     i, j = 0, 0
     while i < len(s):
         while j < len(pat):
